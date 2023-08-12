@@ -1,7 +1,7 @@
 Algoritmo CalculoValorHotel
     Definir  valorHabitacion, diasAlojados, recargoPropina, totalPagar Como Real
     
-    Escribir "Ingrese el número de días de estadía:"
+    Escribir "Ingrese el nÃºmero de dÃ­as de estadÃ­a:"
     Leer diasAlojados
     
     Si diasAlojados = 1 Entonces
@@ -28,8 +28,8 @@ Algoritmo CalculoValorHotel
     
     totalPagar <- (valorHabitacion * diasAlojados) + recargoPropina
     
-    Escribir "Valor de habitación: $", valorHabitacion * 1000
-    Escribir "Días alojados:", diasAlojados
+    Escribir "Valor de habitaciÃ³n: $", valorHabitacion * 1000
+    Escribir "DÃ­as alojados:", diasAlojados
     Escribir "Recargo de propina: $", recargoPropina * 1000
     Escribir "Total a pagar: $", totalPagar * 1000
 FinAlgoritmo
